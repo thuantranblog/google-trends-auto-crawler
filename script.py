@@ -8,10 +8,10 @@ from pytrends.request import TrendReq
 # Bạn có thể nhập tối đa 5 từ khóa, cách nhau bằng dấu phẩy
 # Ví dụ: KEYWORDS = ['iphone', 'samsung', 'xiaomi']
 # =================================================================
-KEYWORDS = ['bitcoin', 'crypto', 'ethereum'] 
+KEYWORDS = ['thủ thuật AI', 'gemini', 'antigravity', 'kinh doanh online', 'trợ lý AI'] 
 
 # 2. CẤU HÌNH PHẠM VI DỮ LIỆU
-GEO = 'VN'          # 'VN' là Việt Nam (để trống '' nếu muốn lấy toàn cầu)
+GEO = ''          # 'VN' là Việt Nam (để trống '' nếu muốn lấy toàn cầu)
 TIMEFRAME = 'now 7-d' # 'now 7-d' là lấy dữ liệu 7 ngày qua (hoặc 'today 3m', 'today 12m')
 
 def get_topic_trends():
